@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  /*outline: 2px solid rgba(200,0,0,.1);*/
+}
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+.contenedor-principal{
+  max-width: 768px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .contenedor-superior{
+    width: 100%;
+    /*display: block;*/
+    background: #000000;
+  }
+
+  .contenedor-intermedio{
+    width: 100%;
+  }
+
+  .contenedor-inferior{
+    width: 100%;
+  }
+
+    .contenedor-column{
+      display: flex;
+      flex-wrap: wrap;
+      /*align-items: flex-start;*/
+    }
+      .columnas-izq{
+        width: 70%;
+      }
+
+      .columnas-der{
+        width: 30%;
+      }
+
+    .contenedor{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin: 0;
+    }
+
+    .titulo{
+      background: #000000;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+      .img-up1{
+        width: 25%;
+        padding: 0;
+        margin: 0;
+      }
+
+      .img-up2{
+        width: 75%;
+        margin: 0:
+        padding: 0;
+      }
+    .menu{
+      color: #ffffff;
+      font-size: 9px:
+
+    }
+
+    .menu span{
+      padding-left: 7px;
+    }
+
+    .txt-col-izq1{
+      font-size: 12px;
+    }
+
+    .contenedor span{
+      margin: 5px;
+      background: #FFDAB9;
+      /*font-size: 90%;*/
+      color: #3E7FBB;
+    }
+
+    .contenedor di{
+      margin: 5px;
+      background: #00BFFF;
+      font-size: 90%;
+      color:
+    }
+
+
+    .contenedor-titulo{
+      width: 100%;
+    }
+
+    .col-izq{
+        width: 60%;
+    }
+
+    .col-der{
+      width: 40%;
+    }
+
+    .column-izq{
+      width: 50%;
+    }
+
+    .column-der{
+      width: 50%;
+    }
+
+    .titulo-int{
+      margin-top: 60px;
+    }
+
+    .txt-col-der1{
+      font-size: 9px;
+    }
+
+    .txt-col-der2{
+      font-size: 12px;
+      color: #0000ff;
+    }
+
+    .txt-col-der3{
+      font-size: 10px;
+    }
+    .columnas-der .contenedor{
+      padding: 5px;
+
+    }
+    .view-all{
+      text-align: right;
+
+    }
+    .columnaA bot{
+      font-size: 10px;
+      padding-left: 5px;
+      margin: 11px;
+    }
+    table{
+      background: #0000ff;
+      color: #ffffff;
+      position: fixed;
+      bottom: 200px;
+      right: 200px;
+    }
